@@ -17,7 +17,7 @@ public:
 					maxNum = max(maxNum, count + others+1);
 				}
 		if(maxNum>n*n)
-			return n*n
+			return n*n;
 		else
 			return maxNum;
 	}
