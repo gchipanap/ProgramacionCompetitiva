@@ -5,7 +5,7 @@ int sol(std::vector <int> &nums , int &k)
 {
     int n = nums.size();
     sort(nums.begin() , nums.end());
-    return nums[n - a];
+    return nums[n - k];
 }
 
 int main()
